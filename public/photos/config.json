@@ -1,12 +1,13 @@
 {
-  "gallery": ["meaca:3", "shreya:3", "julia-+-jenna:3", "tiana:3", "missio:3"],
+  "gallery": ["meaca:3", "shreya:3", "julia-and-jenna:3", "tiana:3"],
   "collections": {
     "meaca": {
       "cover": "original 2026-05-18 155950B6A9F4A59A0E.jpg",
       "description": "Graduation shoot at Oregon State University",
       "category": "People"
     },
-    "julia-+-jenna": {
+    "julia-and-jenna": {
+      "title": "Julia + Jenna",
       "cover": "original 2026-05-07 215050E3414A69DD01.jpg",
       "description": "Mini session in Tigard, Oregon",
       "category": "People"

@@ -21,11 +21,11 @@ export interface Collection {
 
 export const collections: Collection[] = [
   {
-    "id": "julia-+-jenna",
+    "id": "julia-and-jenna",
     "title": "Julia + Jenna",
     "description": "Mini session in Tigard, Oregon",
     "category": "People",
-    "coverPhoto": "/photos/julia-+-jenna/original%202026-05-07%20215050E3414A69DD01.jpg"
+    "coverPhoto": "/photos/julia-and-jenna/original%202026-05-07%20215050E3414A69DD01.jpg"
   },
   {
     "id": "meaca",
@@ -101,24 +101,24 @@ export const photos: Photo[] = [
     "featured": true
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 214649C5D30A8978C5.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20214649C5D30A8978C5.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 214649C5D30A8978C5.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20214649C5D30A8978C5.jpg",
     "alt": "original 2026 05 07 214649C5D30A8978C5",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": true
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 214729E0537CDD4FB0.JPG",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20214729E0537CDD4FB0.JPG",
+    "id": "julia-and-jenna/original 2026-05-07 214729E0537CDD4FB0.JPG",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20214729E0537CDD4FB0.JPG",
     "alt": "original 2026 05 07 214729E0537CDD4FB0",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": true
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 214730CB70999798F4.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20214730CB70999798F4.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 214730CB70999798F4.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20214730CB70999798F4.jpg",
     "alt": "original 2026 05 07 214730CB70999798F4",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": true
   },
   {
@@ -143,136 +143,108 @@ export const photos: Photo[] = [
     "featured": true
   },
   {
-    "id": "missio/original 2026-06-07 175406973C583A9F48.JPG",
-    "src": "/photos/missio/original%202026-06-07%20175406973C583A9F48.JPG",
-    "alt": "original 2026 06 07 175406973C583A9F48",
-    "collection": "missio",
-    "featured": true
-  },
-  {
-    "id": "missio/original 2026-06-07 17541026694E5FAB3A.JPG",
-    "src": "/photos/missio/original%202026-06-07%2017541026694E5FAB3A.JPG",
-    "alt": "original 2026 06 07 17541026694E5FAB3A",
-    "collection": "missio",
-    "featured": true
-  },
-  {
-    "id": "missio/original 2026-06-07 175410E12EB9A01A1D.JPG",
-    "src": "/photos/missio/original%202026-06-07%20175410E12EB9A01A1D.JPG",
-    "alt": "original 2026 06 07 175410E12EB9A01A1D",
-    "collection": "missio",
-    "featured": true
-  },
-  {
-    "id": "julia-+-jenna/original 2026-05-07 2149094A5703F4A25D.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202149094A5703F4A25D.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 2149094A5703F4A25D.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202149094A5703F4A25D.jpg",
     "alt": "original 2026 05 07 2149094A5703F4A25D",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2149501BDD2074A75F.JPG",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202149501BDD2074A75F.JPG",
-    "alt": "original 2026 05 07 2149501BDD2074A75F",
-    "collection": "julia-+-jenna",
-    "featured": false
-  },
-  {
-    "id": "julia-+-jenna/original 2026-05-07 215006F22E06C88E83.JPG",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20215006F22E06C88E83.JPG",
+    "id": "julia-and-jenna/original 2026-05-07 215006F22E06C88E83.JPG",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20215006F22E06C88E83.JPG",
     "alt": "original 2026 05 07 215006F22E06C88E83",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2150407D0A637F3D8B.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202150407D0A637F3D8B.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 2150407D0A637F3D8B.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202150407D0A637F3D8B.jpg",
     "alt": "original 2026 05 07 2150407D0A637F3D8B",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 215043B9F5AED8CFC3.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20215043B9F5AED8CFC3.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 215043B9F5AED8CFC3.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20215043B9F5AED8CFC3.jpg",
     "alt": "original 2026 05 07 215043B9F5AED8CFC3",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 215050E3414A69DD01.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20215050E3414A69DD01.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 215050E3414A69DD01.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20215050E3414A69DD01.jpg",
     "alt": "original 2026 05 07 215050E3414A69DD01",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2150554B6126C4EFCE.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202150554B6126C4EFCE.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 2150554B6126C4EFCE.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202150554B6126C4EFCE.jpg",
     "alt": "original 2026 05 07 2150554B6126C4EFCE",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2151054933DAE49CE9.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202151054933DAE49CE9.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 2151054933DAE49CE9.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202151054933DAE49CE9.jpg",
     "alt": "original 2026 05 07 2151054933DAE49CE9",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2151081653BF7CA8B3.JPG",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202151081653BF7CA8B3.JPG",
+    "id": "julia-and-jenna/original 2026-05-07 2151081653BF7CA8B3.JPG",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202151081653BF7CA8B3.JPG",
     "alt": "original 2026 05 07 2151081653BF7CA8B3",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2152106C3214074277.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202152106C3214074277.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 2152106C3214074277.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202152106C3214074277.jpg",
     "alt": "original 2026 05 07 2152106C3214074277",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2152332EA661AD1D3B.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202152332EA661AD1D3B.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 2152332EA661AD1D3B.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202152332EA661AD1D3B.jpg",
     "alt": "original 2026 05 07 2152332EA661AD1D3B",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 215342DE2638D07D53.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20215342DE2638D07D53.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 215342DE2638D07D53.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20215342DE2638D07D53.jpg",
     "alt": "original 2026 05 07 215342DE2638D07D53",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 215409E42E5AFE3944.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20215409E42E5AFE3944.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 215409E42E5AFE3944.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20215409E42E5AFE3944.jpg",
     "alt": "original 2026 05 07 215409E42E5AFE3944",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 21541286E9904FC631.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%2021541286E9904FC631.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 21541286E9904FC631.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%2021541286E9904FC631.jpg",
     "alt": "original 2026 05 07 21541286E9904FC631",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 215558D749B1E2D426.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%20215558D749B1E2D426.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 215558D749B1E2D426.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%20215558D749B1E2D426.jpg",
     "alt": "original 2026 05 07 215558D749B1E2D426",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
-    "id": "julia-+-jenna/original 2026-05-07 2156012D7CABA810D9.jpg",
-    "src": "/photos/julia-+-jenna/original%202026-05-07%202156012D7CABA810D9.jpg",
+    "id": "julia-and-jenna/original 2026-05-07 2156012D7CABA810D9.jpg",
+    "src": "/photos/julia-and-jenna/original%202026-05-07%202156012D7CABA810D9.jpg",
     "alt": "original 2026 05 07 2156012D7CABA810D9",
-    "collection": "julia-+-jenna",
+    "collection": "julia-and-jenna",
     "featured": false
   },
   {
@@ -350,6 +322,27 @@ export const photos: Photo[] = [
     "src": "/photos/meaca/original%202026-05-18%2016064543A7C2393665.jpg",
     "alt": "original 2026 05 18 16064543A7C2393665",
     "collection": "meaca",
+    "featured": false
+  },
+  {
+    "id": "missio/original 2026-06-07 175406973C583A9F48.JPG",
+    "src": "/photos/missio/original%202026-06-07%20175406973C583A9F48.JPG",
+    "alt": "original 2026 06 07 175406973C583A9F48",
+    "collection": "missio",
+    "featured": false
+  },
+  {
+    "id": "missio/original 2026-06-07 17541026694E5FAB3A.JPG",
+    "src": "/photos/missio/original%202026-06-07%2017541026694E5FAB3A.JPG",
+    "alt": "original 2026 06 07 17541026694E5FAB3A",
+    "collection": "missio",
+    "featured": false
+  },
+  {
+    "id": "missio/original 2026-06-07 175410E12EB9A01A1D.JPG",
+    "src": "/photos/missio/original%202026-06-07%20175410E12EB9A01A1D.JPG",
+    "alt": "original 2026 06 07 175410E12EB9A01A1D",
+    "collection": "missio",
     "featured": false
   },
   {

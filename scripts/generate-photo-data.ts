@@ -27,14 +27,14 @@ interface Config {
   gallery?: string[]
   collections?: Record<
     string,
-    { cover?: string; description?: string; category?: string; }
+    { title?: string; cover?: string; description?: string; category?: string; }
   >
 }
 
 function encodePhotoPath(filePath: string): string {
   return filePath
     .split("/")
-    .map((segment) => encodeURIComponent(segment).replace(/%2B/g, "+"))
+    .map((segment) => encodeURIComponent(segment))
     .join("/")
 }
 
@@ -157,7 +157,7 @@ function generatePhotoData() {
 
     collections.push({
       id: collectionId,
-      title: slugToTitle(collectionId),
+      title: collectionConfig?.title || slugToTitle(collectionId),
       description: collectionConfig?.description,
       category: collectionConfig?.category,
       coverPhoto: encodePhotoPath(`/photos/${collectionId}/${coverFile}`)

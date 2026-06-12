@@ -43,7 +43,7 @@ async function processImage(
     const webpFileName = `${baseName}-${size}w.webp`
     const webpPath = path.join(outputDir, webpFileName)
     const webpRelative = path.join("/photos-optimized", relativeDir, webpFileName).replace(/\\/g, "/")
-    const webpEncoded = webpRelative.split("/").map((s) => encodeURIComponent(s).replace(/%2B/g, "+")).join("/")
+    const webpEncoded = webpRelative.split("/").map((s) => encodeURIComponent(s)).join("/")
 
     await sharp(srcPath)
       .resize(size, undefined, { withoutEnlargement: true })
