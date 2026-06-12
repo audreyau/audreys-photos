@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+}
+
+body {
+  @apply antialiased;
+}
+
+.masonry-grid {
+  columns: 1;
+  column-gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .masonry-grid {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid {
+    columns: 3;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

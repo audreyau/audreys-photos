@@ -1,0 +1,46 @@
+{
+  "name": "photo-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "photos": "tsx scripts/generate-photo-data.ts",
+    "optimize": "tsx scripts/optimize-images.ts",
+    "prebuild": "tsx scripts/optimize-images.ts && tsx scripts/generate-photo-data.ts",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^11.0.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.17.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.40.0",
+    "@tailwindcss/vite": "^4.3.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "jsdom": "^24.0.0",
+    "sharp": "^0.33.0",
+    "tailwindcss": "^4.3.0",
+    "tsx": "^4.22.4",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vitest": "^2.0.0"
+  }
+}
