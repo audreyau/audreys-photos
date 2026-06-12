@@ -2,6 +2,7 @@
   "ci": {
     "collect": {
       "staticDistDir": "./dist",
+      "isSinglePageApplication": true,
       "numberOfRuns": 1
     },
     "assert": {
